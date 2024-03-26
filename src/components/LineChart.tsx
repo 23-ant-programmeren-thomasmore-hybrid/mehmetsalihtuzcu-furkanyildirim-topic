@@ -86,7 +86,7 @@ const secondaryAxes = [
     { getValue: datum => datum.secondary, elementType: 'line' },
 ];
 
-export default function BarChart() {
+export default function LineChart() {
     return (
         <div style={{ width: '600px', height: '400px' }}>
             <Chart options={{
